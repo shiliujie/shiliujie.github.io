@@ -1,0 +1,178 @@
+/*初始化浏览器默认设置*/
+
+h1,
+body,
+ul,
+li,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+
+/*全局性样式*/
+
+body {
+    background-color: #222222;
+    font-family: simhei;
+}
+
+.main {
+    margin: 0 auto;
+    width: 95%;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #5F5F47;
+}
+
+p {
+    text-indent: 2em;
+}
+
+
+/*导航条设置*/
+
+.nav {
+    background-color: #333;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav h1 {
+    width: 200px;
+    float: left;
+}
+
+.nav h1 a {
+    display: block;
+}
+
+.nav h1 img {
+    display: block;
+}
+
+.nav ul {
+    /*width: 500px;*/
+    float: right;
+    margin-right: 15px;
+}
+
+.nav ul li {
+    display: list-item;
+    float: left;
+    margin-left: 18px;
+    font-size: 12px;
+    vertical-align: middle;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li a:visited {
+    color: gray;
+}
+
+.nav li a:hover {
+    color: red;
+}
+
+
+/*页面主题*/
+
+.container {
+    background-color: #DEDEDE;
+    padding: 25px;
+}
+
+.article {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px 30px;
+}
+
+.article p {
+    line-height: 1.8;
+}
+
+p span {
+    color: #5F5F47;
+    font-size: 12px;
+}
+
+.article-info {
+    text-indent: 0;
+}
+
+.article ul,
+li {
+    list-style: none;
+    text-indent: 2em;
+}
+
+.bd {
+    border: 1px solid #666;
+    width: 300px;
+}
+
+.picture {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px 30px;
+    font-family: simhei;
+}
+
+.picture h3 {
+    margin-top: 5px;
+}
+
+.picture img {
+    width: 160px;
+}
+
+table {
+    border: solid #fefefe;
+    width: 95%;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+
+}
+figure {
+    border: 1px solid #999;
+    width: 170px;
+    text-align: center;
+}
+figcaption {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*页脚样式*/
+.foot {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    height: 100px;
+    line-height: 100px;
+}
