@@ -110,21 +110,7 @@ p {
     margin-right: 25px;
 }
 
-.aside h3 {
-    border-left: 3px solid #5F5F47;
-    color: #000;
-    line-height: 2.5;
-    padding-left: 10px;
-}
 
-.aside table {
-    margin: 0 auto;
-    width: 70%;
-    background-color: #f00;
-    margin-left: 300px;
-    text-align: left;
-    margin-right: 300px;
-}
 
 .article p {
     line-height: 1.8;
@@ -176,8 +162,6 @@ th {
     color: #fff;
 }
 
-
-}
 figure {
     border: 1px solid #999;
     width: 170px;
@@ -188,6 +172,36 @@ figcaption {
     margin-top: 10px;
 }
 
+/*aside 部分样式*/
+.aside h3 {
+    border-left: 3px solid #5F5F47;
+    color: #000;
+    line-height: 2.5;
+    padding-left: 10px;
+}
+
+.aside table {
+    margin: 0 auto;
+    width: 70%;
+    background-color: #f00;
+    margin-left: 20vw;
+    text-align: left;
+    margin-right: 20vw;
+}
+.aside  td:nth-child(odd) {
+    background-color: blue;
+}
+.aside td:nth-child(even) {
+    background-color: orange;
+}
+input[type="submit"] {
+    display: block;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+}
 /*页脚样式*/
 .foot {
     background-color: #000;
