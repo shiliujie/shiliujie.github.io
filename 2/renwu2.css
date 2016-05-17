@@ -98,11 +98,32 @@ p {
     padding: 25px;
 }
 
-.article {
+.article,
+.aside {
     background-color: #fff;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     margin: 20px auto;
     padding: 20px 30px;
+}
+
+.aside {
+    margin-right: 25px;
+}
+
+.aside h3 {
+    border-left: 3px solid #5F5F47;
+    color: #000;
+    line-height: 2.5;
+    padding-left: 10px;
+}
+
+.aside table {
+    margin: 0 auto;
+    width: 70%;
+    background-color: #f00;
+    margin-left: 300px;
+    text-align: left;
+    margin-right: 300px;
 }
 
 .article p {
