@@ -110,8 +110,6 @@ p {
     margin-right: 25px;
 }
 
-
-
 .article p {
     line-height: 1.8;
 }
@@ -157,11 +155,22 @@ table {
     width: 95%;
 }
 
+tfoot {
+    background-color: #CCCCCC;
+}
+
+thead {
+    text-align: left;
+    background-color: #333;
+    color: white;
+}
+
+
+}
 th {
     background-color: #000;
     color: #fff;
 }
-
 figure {
     border: 1px solid #999;
     width: 170px;
@@ -179,35 +188,32 @@ figcaption {
     line-height: 2.5;
     padding-left: 10px;
 }
-
 .aside table {
     margin: 0 auto;
     width: 70%;
-    background-color: #f00;
-    margin-left: 20vw;
+    margin-left: 10vw;
     text-align: left;
     margin-right: 20vw;
 }
-.aside  td:nth-child(odd) {
-    background-color: blue;
+.aside td:nth-child(odd) {
+    text-align: right;
 }
-.aside td:nth-child(even) {
-    background-color: orange;
-}
+.aside td:nth-child(even) {}
 input[type="submit"] {
     display: block;
     height: 45px;
     width: 100%;
     border-radius: 10px;
     background-color: blue;
-    color:white;
+    color: white;
 }
+
 /*页脚样式*/
 .foot {
     background-color: #000;
     color: #fff;
     text-align: center;
     font-size: 12px;
-    height: 100px;
+    height: 80px;
     line-height: 100px;
 }

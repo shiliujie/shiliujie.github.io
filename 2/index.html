@@ -80,11 +80,6 @@
                     <li>排名2</li>
                     <li>排名3</li>
                 </ol>
-                <ol>
-                    <li>咖啡</li>
-                    <li>牛奶</li>
-                    <li>茶</li>
-                </ol>
                 <p> 下面是一个 表格，给表格加一个border="1"好让你看出是一个表格
                 </p>
                 <table border="1" cellpadding="0" cellspacing="0">
@@ -135,7 +130,7 @@
                     <table>
                         <tr>
                             <td align="right">
-                                <label>请输入邮箱地址</label>
+                                <label>请输入邮箱地址:</label>
                             </td>
                             <td>
                                 <input type="text" name="" id="" placeholder="这是一个文本框">
@@ -143,11 +138,15 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td>邮箱地址请按要求格式输入</td>
+                            <td>邮箱地址请按要求格式输入:</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td align="right">
-                                <label>请输入密码</label>
+                                <label>请输入密码:</label>
                             </td>
                             <td>
                                 <input placeholder="这是一个文本框">
@@ -155,7 +154,7 @@
                         </tr>
                         <tr>
                             <td align="right">
-                                <label>请重复输入密码</label>
+                                <label>请重复输入密码:</label>
                             </td>
                             <td>
                                 <input placeholder="这是一个文本框">
@@ -170,27 +169,45 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td>
+                                <label>性别：</label>
+                            </td>
+                            <td>
+                                <input type="radio" checked="checked" name="Sex" value="male" />男
+                                <input type="radio" name="Sex" value="female" />女</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>城市：</label>
+                            </td>
+                            <td>
+                                <select name="">
+                                    <option value="北京">北京</option>
+                                    <option value="上海">上海</option>
+                                    <option value="西安">西安</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>爱好：</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="checkbox1" value="checkbox">运动
+                                <input type="checkbox" name="checkbox2" value="checkbox">艺术
+                                <input type="checkbox" name="checkbox3" value="checkbox">科学</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>个人描述：</label>
+                            </td>
+                            <td>
+                                <textarea name="MSG" cols=30 rows=2>
+                                    这是一个多行输入框，输入你的个人描述 </textarea>
+                            </td>
                         </tr>
                     </table>
                     <br>
-                    <label>性别：</label>
-                    <input type="radio" checked="checked" name="Sex" value="male" />男
-                    <input type="radio" name="Sex" value="female" />女
-                    <label>城市：</label>
-                    <select name="">
-                        <option value="北京">北京</option>
-                        <option value="上海">上海</option>
-                        <option value="西安">西安</option>
-                    </select>
-                    <label>爱好：</label>
-                    <input type="checkbox" name="checkbox1" value="checkbox">运动
-                    <input type="checkbox" name="checkbox2" value="checkbox">艺术
-                    <input type="checkbox" name="checkbox3" value="checkbox">科学
-                    <label>个人描述：</label>
-                    <textarea name="MSG" cols=30 rows=2>
-                        这是一个多行输入框，输入你的个人描述 </textarea>
                     <input type="submit" value="确认提交" />
                 </form>
             </div>
