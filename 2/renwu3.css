@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+}
+
+.main {
+    margin: 0 auto;
+    border: 1px solid #999;
+    background: #eee;
+    padding: 20px;
+    min-width: 600px;
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    padding: 20px;
+    width: 180px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.right {
+    float: right;
+    padding: 20px;
+    width: 120px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.middle {
+    padding: 20px;
+    margin-left: 240px;
+    margin-right: 180px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.team-name {
+    text-align: right;
+    margin: 0px;
+}
