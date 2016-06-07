@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/renwu4.css">
+    <title>定位与居中问题</title>
+</head>
+
+<body>
+<div class="main">
+		<div class="left-top-area"></div>
+	<div class="right-bottom-area"></div>
+	</div>	
+</body>
+
+</html>
